@@ -223,7 +223,7 @@ this setting is not used, instead the standard Windows or Unix line endings are 
   * Default value is `15`
 
 How often we expand the filename patterns in the `path` option to discover new files to watch.
-This value is a multiple to `stat_interval`, e.g. if `stat_interval` is "500 ms" then new files
+This value is a multiple to `stat_interval`, e.g. if `stat_interval` is "500 ms" then new
 files could be discovered every 15 X 500 milliseconds - 7.5 seconds.
 In practice, this will be the best case because the time taken to read new content needs to be factored in.
 
